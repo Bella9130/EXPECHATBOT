@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica&family=Open+Sans:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/chatSmart/chatSmart.css">
+    <link rel="icon" href="/assets/image/lbsLogo.png">
+    <title>LBS ASSISTANT BOT</title>
+</head>
+<body>
+    <div class="container-app">
+        <aside id="menu-chatbot">
+                <ul class="menu__list r-list">
+                    <li class="menu__group" style="list-style: none;"><a href="/index.html" class="menu__link r-link text-underlined"><img src="https://static.wixstatic.com/media/8d09b4_dea73aae70884325b670fad07adf3a11~mv2.png/v1/fill/w_640,h_390,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8d09b4_dea73aae70884325b670fad07adf3a11~mv2.png" alt="" id="home" width="50px" height="25px">HOME</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/EXTRA/paddlet.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>COMENTARIOS</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/EXTRA/coments.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>CONSULTA</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/ATHORS/todos.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>LBS</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/src/public/Indice.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>LBS</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/src/public/Entrevista.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>LBS</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/ATHORS/Videos/videos.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>TESTIMONIOS</a></li>
+                    <li class="menu__group" style="list-style: none;"><a href="/src/public/proyecto-mejora.html" class="menu__link r-link text-underlined" style="text-decoration: none;"><i class="fa-solid fa-magnifying-glass" id="icon-menssage"></i>PROYECTOS</a></li>
+                </ul>
+        </aside>
+        <div class="chat-container">  
+    
+            <div class="chat-header">
+                <img src="/assets/image/lbsLogo.png" alt="logo-lbs" width="70px" height="70px" style="margin: 0 0px 0 80px;">
+                <h1>LBS ASSISTANT BOT</h1>
+                <img src="https://static.vecteezy.com/system/resources/previews/013/758/104/original/abstract-circle-logo-and-circuit-board-illustration-in-trendy-and-minimal-style-png.png" alt="" width="70px" height="70px" style="margin: 0 80px 0 0;">
+            </div>
+            <div class="output-style">
+                <div id="answer"></div>
+                <div id="chat"></div>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="question" placeholder="Escribe tu pregunta a LBS Assistant Bot.......">
+                <button id="generate">Generar</button>
+            </div>
+    
+    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="/chatSmart/chat.js"></script>    
+
+</body>
+</html>
