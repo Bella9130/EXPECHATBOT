@@ -168,14 +168,6 @@ body {
     margin: 0 0 20px 0;
 }
 
-/* input[type="text"] {
-
-    flex: 1;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-} */
 
 button {
     background-color: var(--gray-darker);
